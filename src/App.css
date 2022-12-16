@@ -1,38 +1,102 @@
 .App {
-  text-align: center;
+  border-left: solid 5px rgb(141, 141, 141);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family:sans-serif;
+  max-width: 1000px;
+  margin:auto;
 }
 
-.App-link {
-  color: #61dafb;
+header, main, footer {
+  padding: 1rem 2rem 1rem 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color:tomato;
+  font-weight: lighter;
+  font-size: 60px;
+  margin: 5px auto;
+}
+
+.subtitle {
+  font-weight: lighter;
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+img {
+  width:100%;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-nav {
+  margin: 0px 20px 30px 20px;
+  text-decoration: underline;
+  color:rgb(141, 141, 141);
+  font-size:20px;
+  font-weight: lighter;
+}
+
+.bottom-links {
+  text-decoration: none;
+  color: tomato;
+}
+
+.blog-title {
+  font-size: 42px;
+  font-weight: lighter;
+  margin: 15px auto;
+}
+
+aside {
+  text-align: right;
+}
+
+aside > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: tomato;
+  font-size: 16px;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: solid 1px lightgray;
+  padding-bottom: 2rem;
+}
+
+time {
+  color: rgb(109, 109, 109);
+  font-weight:lighter;
+  font-size:26px;
+  margin-bottom: 10px;
+}
+
+p::first-letter {
+  font-size: 100px;
+  font-weight: lighter;
+  color: rgb(109, 109, 109);
+  padding-right:20px;
+  float: left;
+  line-height: 100%;
+}
+
+p {
+  color: rgb(56, 80, 79);
+  font-size: 17px;
+  line-height: 1.65;
+  font-weight: lighter;
+}
+
+.copyright {
+  color:rgb(141, 141, 141);
 }
